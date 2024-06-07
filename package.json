@@ -2,8 +2,8 @@
   "name": "node-api-with-express",
   "version": "1.0.0",
   "scripts": {
-    "start": "cross-env DEBUG=server.* node watch src/bin/www",
-    "start:watch": "cross-env DEBUG=server.* node --watch src/bin/www"
+    "start": "node src/bin/www",
+    "start:watch": "node --watch src/bin/www"
   },
   "dependencies": {
     "colors": "1.4.0",
@@ -20,8 +20,5 @@
     "mongoose": "8.4.0",
     "morgan": "1.10.0",
     "yup": "1.4.0"
-  },
-  "devDependencies": {
-    "cross-env": "7.0.3"
   }
 }
