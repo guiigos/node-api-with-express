@@ -10,9 +10,7 @@ const async = require('./middleware/async.middleware');
 const builder = require('./routes/builder');
 const connect = require('./config/db.config');
 
-require('dotenv').config();
 connect(process.env.DATABASE);
-
 const app = express();
 
 app.use(handler());

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const http = require('http');
 const figlet = require('figlet');
 const colors = require('colors');
